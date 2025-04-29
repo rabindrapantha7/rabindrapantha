@@ -38,7 +38,8 @@ next-env.d.ts
 # contentlayer
 .contentlayer
 
-# loc files
+# lock files
+*.lock
 *.loc
 package-lock.json
 pnpm-lock.yaml
