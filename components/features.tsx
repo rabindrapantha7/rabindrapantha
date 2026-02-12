@@ -101,6 +101,7 @@ export default function Features() {
                 <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}>
                   {/* Item 1 */}
                   <Transition
+                    as="div"
                     show={tab === 1}
                     appear={true}
                     className="w-full"
@@ -120,6 +121,7 @@ export default function Features() {
                   </Transition>
                   {/* Item 2 */}
                   <Transition
+                    as="div"
                     show={tab === 2}
                     appear={true}
                     className="w-full"
@@ -139,6 +141,7 @@ export default function Features() {
                   </Transition>
                   {/* Item 3 */}
                   <Transition
+                    as="div"
                     show={tab === 3}
                     appear={true}
                     className="w-full"
